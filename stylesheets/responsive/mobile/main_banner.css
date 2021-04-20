@@ -1,0 +1,26 @@
+/* Mobile */
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {     
+  .main-banner {
+    background-size: 190vh;
+    height: 600px;
+    background-position-y: 0px;
+    background-position-x: -450px;
+  }
+
+  .main-banner h1 {
+    font-size: 32px;
+    padding: 16vh 0 0;
+  }
+
+  .main-banner p {
+    font-size: 12px;
+    margin: 65px 0 145px;
+    padding: 0px 25px;
+    line-height: 1.6;
+  }
+
+  .main-banner p span {
+    font-size: 12px;
+    padding: 0px 20px;
+  }
+}

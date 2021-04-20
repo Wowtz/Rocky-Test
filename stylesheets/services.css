@@ -1,0 +1,56 @@
+.services-container {
+  margin-top: 200px;
+}
+
+.service-cards-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.service-card {
+  margin-right: 50px;
+  border-radius: 33px;
+  box-shadow: 0px 3px 15px #0000001A;
+  background-image: url("../assets/images/web/s3 ft1.png");
+  background-repeat: no-repeat;
+  background-position-y: -40px;
+  background-position-x: -23px;
+  background-size: 108%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.service-card:first-of-type .service-card-title {
+  text-transform: uppercase;
+}
+
+.service-card:nth-of-type(2) {
+  background-image: url("../assets/images/web/s3 ft2.png");
+}
+
+.service-card:last-of-type {
+  background-image: url("../assets/images/web/s3 ft3.png");
+  margin-right: 0;
+}
+
+.service-card-title {
+  color: #EFE60B;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 45px 0 75px 0;
+}
+
+.service-card p {
+  margin: 0 0 50px 0;
+  font-size: 25px;
+  color: #FFF;
+  padding: 0 91px;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.service-card p:last-of-type {
+  margin-bottom: 81px;
+}

@@ -1,0 +1,17 @@
+/* Desktop - 1280px*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 1366px) { 
+  header {
+    padding: 0 95px !important;
+    width: calc(100% - 190px);
+  }
+  
+  header .logo-box img {
+    width: 70%;
+    height: auto;
+  }
+  
+  header nav ul li {
+    margin-right: 38px;
+    font-size: 16px;
+  }
+}

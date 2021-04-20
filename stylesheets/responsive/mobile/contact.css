@@ -1,0 +1,103 @@
+/* Mobile */
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {    
+  footer {
+    float: left;
+    width: 100%;
+    margin-top: 60px;
+  }
+
+  footer i {
+    font-size: 14px;
+  }
+
+  .contact-box .contact-infos {
+    width: calc(100% - 40px);
+    padding: 0 20px;
+  }
+
+  .contact-header-infos {
+    margin-bottom: 25px;
+  }
+
+  .contact-mail-and-phone-box {
+    margin-bottom: 20px;
+  }
+
+  .contact-header-infos img {
+    width: 40%;
+    height: auto;
+  }
+
+  .social-media-box i {
+    font-size: 26px;
+    margin-left: 40px;
+  }
+
+  footer .contact-box {
+    padding: 20px 0 0;
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .contact-address-box {
+    margin-bottom: 30px;
+  }
+
+  .contact-mail-and-phone-box .email-box:after {
+    margin-left: 45px;
+  }
+
+  .contact-mail-and-phone-box .email-box span,
+  .contact-mail-and-phone-box .phone-box span {
+    margin-left: 10px;
+    font-size: 12px;
+  }
+
+  .contact-address-box span {
+    font-size: 10px;
+    margin-left: 10px;
+    width: auto;
+  }
+
+  .contact-infos-content-responsive {
+    display: block;
+  }
+
+  .contact-infos-content-responsive p {
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.4;
+    padding: 0 20px;
+  }
+
+  .contact-infos-content p {
+    display: none
+  }
+
+  .contact-box form {
+    width: calc(100% - 40px);
+    padding: 20px 20px;
+  }
+
+  .contact-box form input,
+  .contact-box form textarea {
+    padding: 0 10px;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+
+  .contact-box form input {
+    height: 36px;
+    border: none;
+  }
+
+  .contact-box form textarea {
+    height: 100px;
+    margin-bottom: 40px;
+  }
+
+  .contact-box form input:last-of-type {
+    height: 56px;
+    font-size: 28px;
+  }
+}

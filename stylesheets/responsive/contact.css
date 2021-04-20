@@ -1,0 +1,79 @@
+/* Desktop - 1280px*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 1366px) {     
+  footer i {
+    font-size: 14px;
+  }
+
+  .contact-box .contact-infos {
+    width: 33%;
+  }
+
+  .contact-header-infos {
+    margin-bottom: 35px;
+  }
+
+  .contact-mail-and-phone-box {
+    margin-bottom: 30px;
+  }
+
+  .contact-header-infos img {
+    width: 50%;
+    height: auto;
+  }
+
+  .social-media-box i {
+    font-size: 35px;
+    margin-left: 40px;
+  }
+
+  footer .contact-box {
+    padding: 78px 140px;
+  }
+
+  .contact-address-box {
+    margin-bottom: 50px;
+  }
+
+  .contact-mail-and-phone-box .email-box:after {
+    margin-left: 55px;
+  }
+
+  .contact-mail-and-phone-box .email-box span,
+  .contact-mail-and-phone-box .phone-box span {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+
+  .contact-address-box span {
+    font-size: 10px;
+    margin-left: 10px;
+    width: 420px;
+  }
+
+  .contact-infos-content p {
+    font-size: 14px;
+    line-height: 30px;
+  }
+
+  .contact-box form {
+    width: 40%;
+    padding: 30px;
+  }
+
+  .contact-box form input,
+  .contact-box form textarea {
+    padding: 0 20px;
+    font-size: 18px;
+    margin-bottom: 40px;
+  }
+
+  .contact-box form input {
+    height: 66px;
+    border-radius: 0;
+  }
+
+  .contact-box form textarea {
+    height: 160px;
+    margin-bottom: 60px;
+  }
+}

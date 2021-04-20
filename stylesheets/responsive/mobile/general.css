@@ -1,0 +1,30 @@
+/* Mobile */
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {     
+  /* Default Section */
+  .default-section {
+    width: calc(100% - 40px);
+    padding: 0 20px;
+  }
+
+  .default-section-title {
+    font-size: 26px;
+    margin: 0 0 40px 0;
+    font-weight: 800;
+  }
+
+  /* Default Button */
+  .default-button {
+    padding: 10px 25px;
+    font-size: 12px;
+  }
+
+  .submit-button {
+    font-size: 12px;
+    height: 40px;
+  }
+
+  /* Divider */
+  .divider {
+    height: 30px;
+  }
+}

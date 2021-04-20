@@ -1,0 +1,123 @@
+body {
+  overflow-x: hidden;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+}
+
+main {
+  position: relative;
+  flex: 1;
+  overflow: hidden;
+}
+
+.container {
+  width: 1280px;
+  max-width: 1280px;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Default Section */
+.default-section {
+  position: relative;
+  float: left;
+  width: calc(100% - 280px);
+  padding: 0 140px;
+}
+
+.default-section-title {
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 0 0 130px 0;
+}
+
+.wrapper-opacity {
+  background: rgba(0, 0, 0, .6);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+/* List Styles Default */
+ul {
+  padding-left: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+/* Rounded border */
+.rounded-border {
+  border: dotted 2px #FFF;
+  border-radius: 15px;
+}
+
+/* Default Button */
+.default-button {
+  padding: 30px 25px;
+  border-radius: 50px;
+  background: #1CD4E9;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #FFF;
+  text-transform: uppercase;
+  border: none;
+}
+
+.default-button:focus {
+  outline: none;
+}
+
+.submit-button {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 30px;
+  background: #1CD4E9;
+  border-radius: 25px;
+  height: 50px;
+  padding: 0 25px;
+  float: right;
+  border: none;
+}
+
+.submit-button:focus {
+  outline: none;
+}
+
+textarea {
+  padding: 15px !important;
+  resize: none;
+}
+
+/* Hide Elements */
+.hide {
+  display: none;
+}
+
+/* Divider */
+.divider {
+  height: 83px;
+  background: #EFE60B;
+  width: 100%;
+}
+
+/* Display */
+.d-flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}

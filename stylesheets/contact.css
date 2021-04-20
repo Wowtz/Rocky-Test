@@ -1,0 +1,131 @@
+footer {
+  background: #000000E6 0% 0% no-repeat padding-box;
+}
+
+footer i {
+  color: #EFE60B;
+  font-size: 20px;
+}
+
+.contact-box .contact-infos {
+  width: 570px;
+}
+
+.contact-header-infos,
+.contact-mail-and-phone-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.contact-header-infos {
+  margin-bottom: 45px;
+}
+
+.contact-mail-and-phone-box {
+  margin-bottom: 40px;
+}
+
+.contact-header-infos img {
+  left: 140px;
+  width: 228px;
+}
+
+.social-media-box i {
+  color: #FFF;
+  font-size: 45px;
+  margin-left: 50px;
+}
+
+footer .contact-box {
+  padding: 78px 140px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-address-box {
+  margin-bottom: 80px;
+}
+
+.contact-mail-and-phone-box .email-box:after {
+  width: 1px;
+  height: 20px;
+  background: rgba(255, 255, 255, .5);
+  content: '';
+  margin-left: 100px;
+}
+
+.contact-mail-and-phone-box .email-box,
+.contact-mail-and-phone-box .phone-box,
+.contact-address-box {
+  display: flex;
+  align-items: center;
+}
+
+.contact-mail-and-phone-box .email-box span,
+.contact-mail-and-phone-box .phone-box span {
+  margin-left: 20px;
+  font-size: 20px;
+  color: #FFFFFF;
+  font-size: 20px;
+}
+
+.contact-address-box span {
+  font-size: 12px;
+  color: #FFFFFF;
+  margin-left: 20px;
+  width: 420px;
+  line-height: 1.4;
+}
+
+.contact-infos-content p,
+.contact-infos-content-responsive p {
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.contact-infos-content p:nth-child(2),
+.contact-infos-content-responsive p:nth-child(2) {
+  color: #EFE60B;
+}
+
+.contact-infos-content p:last-child,
+.contact-infos-content-responsive p:last-child {
+  color: #1CD4E9;
+}
+
+.contact-infos-content-responsive {
+  display: none;
+}
+
+.contact-box form {
+  width: 680px;
+  display: flex;
+  flex-direction: column;
+  background: #818181;
+  padding: 30px;
+}
+
+.contact-box form input,
+.contact-box form textarea {
+  color: #D1D1D1;
+  padding: 0 20px;
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.contact-box form input {
+  height: 76px;
+}
+
+.contact-box form input:last-of-type {
+  margin-bottom: 0;
+  font-weight: bold;
+  color: #FFF;
+}
+
+.contact-box form textarea {
+  height: 200px;
+}

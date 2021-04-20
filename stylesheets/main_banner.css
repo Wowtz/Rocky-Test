@@ -1,0 +1,47 @@
+.main-banner {
+  background-image: url("../assets/images/web/s1 ft1.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-bottom: 10vh;
+  height: 1080px;
+}
+
+.main-banner h1,
+.main-banner p {
+  color: #FFFFFF;
+  text-align: center;
+  margin: 0;
+  font-weight: 800;
+}
+
+.main-banner h1 {
+  font-size: 141px;
+  padding: 403px 13vw 0;
+  line-height: 198px;
+}
+
+.main-banner p {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 115px 0;
+  padding: 0px 25vw;
+  line-height: 1.6;
+}
+
+.main-banner p span {
+  color: #EFE60B;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.main-banner button {
+  margin: 0 auto;
+  cursor: pointer;
+  font-weight: bold;
+}

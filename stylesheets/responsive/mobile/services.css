@@ -1,0 +1,33 @@
+/* Mobile */
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {     
+  .services-container {
+    margin-top: 70px;
+  }
+
+  .service-cards-container {
+    flex-direction: column;
+  }
+
+  .service-card {
+    flex-direction: column;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+    height: 300px;
+  }
+
+  .service-card:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .service-card-title {
+    font-size: 18px;
+    margin: 45px 0 35px 0;
+  }
+
+  .service-card p {
+    margin: 0 0 20px 0;
+    font-size: 14px;
+    padding: 0 20px;
+  }
+}

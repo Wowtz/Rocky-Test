@@ -1,0 +1,34 @@
+/* Mobile */
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {     
+  .differentials-container h2 {
+    margin-top: 70px;
+  }
+
+  .differential-cards-container {
+    flex-direction: column;
+  }
+
+  .differential-card {
+    flex-direction: column;
+    width: 100%;
+    margin-right: 0;
+    margin-bottom: 30px;
+    height: 350px;
+  }
+
+  .differential-card:last-of-type {
+    margin-bottom: 0;
+  }
+
+  .differential-card i {
+    font-size: 60px;
+    color: #FFF;
+    padding: 45px 75px 65px;
+  }
+
+  .differential-card p {
+    font-size: 14px;
+    padding: 0 50px;
+    margin-top: 0;
+  }
+}

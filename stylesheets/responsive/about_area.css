@@ -1,0 +1,26 @@
+/* Desktop - 1280px*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 1366px) {   
+  .about-wrapper {
+    background-position-y: -843px;
+    background-position-x: 0px;
+    padding-bottom: 10vh;
+    height: 2405px;
+  }
+
+  .about-container h2 {
+    padding: 65px 0 0;
+  }
+
+  .about-content {
+    width: 58%;
+    padding: 35px 33px;
+    height: auto;
+  }
+
+  .about-content p {
+    margin: 0 0 27px;
+    font-size: 14px;
+    line-height: 1.6;
+    font-weight: 500;
+  }
+}

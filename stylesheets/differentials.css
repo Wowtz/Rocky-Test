@@ -1,0 +1,49 @@
+.differentials-container h2 {
+  margin-top: 200px;
+}
+
+.differential-cards-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.differential-card {
+  height: 670px;
+  margin-right: 235px;
+  border-radius: 51px;
+  box-shadow: 0px 3px 15px #0000001A;
+  background-image: url("../assets/images/web/s4 ft1.png");
+  background-repeat: no-repeat;
+  background-position-y: -28px;
+  background-position-x: -30px;
+  background-size: 113%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+}
+
+.differential-card:nth-of-type(2) {
+  background-image: url("../assets/images/web/s4 ft2.png");
+}
+
+.differential-card:last-of-type {
+  background-image: url("../assets/images/web/s4 ft3.png");
+  margin-right: 0;
+}
+
+.differential-card i {
+  font-size: 138px;
+  color: #FFF;
+  padding: 95px 125px;
+}
+
+.differential-card p {
+  font-size: 20px;
+  color: #FFF;
+  padding: 0 95px;
+  text-align: center;
+  line-height: 1.4;
+  font-weight: bold;
+  text-shadow: 0px 3px 10px #00000029;
+}

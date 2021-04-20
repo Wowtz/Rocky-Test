@@ -1,0 +1,25 @@
+/* Mobile */
+@media only screen and (min-device-width: 320px) and (max-device-width: 1024px) {   
+  .about-wrapper {
+    background: #FFF;
+    padding-bottom: 10vh;
+    height: auto;
+  }
+
+  .about-container h2 {
+    padding: 70px 0 0;
+  }
+
+  .about-content {
+    width: calc(100% - 40px);
+    padding: 20px;
+    height: auto;
+  }
+
+  .about-content p {
+    margin: 0 0 27px;
+    font-size: 12px;
+    line-height: 1.6;
+    font-weight: 500;
+  }
+}

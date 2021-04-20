@@ -1,0 +1,25 @@
+/* Desktop - 1280px*/
+@media only screen and (min-device-width: 320px) and (max-device-width: 1366px) {     
+  .differentials-container h2 {
+    margin-top: 170px;
+  }
+
+  .differential-card {
+    height: 460px;
+    background-position-y: -30px;
+    background-position-x: -16px;
+    background-size: 111%;
+  }
+
+  .differential-card i {
+    font-size: 80px;
+    color: #FFF;
+    padding: 65px 75px 55px;
+  }
+
+  .differential-card p {
+    font-size: 14px;
+    padding: 0 50px;
+    margin-top: 0;
+  }
+}
